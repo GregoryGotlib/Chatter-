@@ -27,7 +27,7 @@ export default class Home extends Component{
               <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="ml-auto" navbar>
                   <NavItem>
-                    <NavLink id="link1" href="https://github.com/GregoryGotlib/TheChatter.git">GitHub</NavLink>
+                    <NavLink id="link1" href="https://github.com/GregoryGotlib/Chatter-.git">GitHub</NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink id="link2" href="/About">About</NavLink>
