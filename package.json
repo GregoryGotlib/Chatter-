@@ -22,6 +22,7 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
     "start": "react-scripts start",
     "dev": "concurrently 'npm run react' 'npm run server'",
     "react": "react-scripts start",
