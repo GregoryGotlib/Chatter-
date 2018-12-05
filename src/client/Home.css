@@ -1,0 +1,16 @@
+#jum{
+    padding: 30px 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    color: inherit;
+    border-bottom-style:outset;
+    border-color:darkgray;
+}
+
+#h2{
+    font-family: 'Courier New', Courier, monospace
+}
+
+.btnp{
+    font-family: 'Courier New', Courier, monospace
+}

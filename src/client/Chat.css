@@ -1,0 +1,55 @@
+#card{
+    min-width: 800px;
+    min-height: 800px;
+    border-block-end-color: black;
+    border-block-end-style: solid;
+    border-block-start-color: black;
+    margin-block-start: 5px;
+    margin-left: 120px;
+}
+#cardTitle{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#button{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#input{
+    border-color: rgb(68, 248, 68);
+}
+#sender{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+  #userscard{
+    min-width: 150px;
+    min-height: 800px;
+    position: fixed;
+    border-block-end-color: black;
+    border-block-end-style: solid;
+    border-block-start-color: black;
+    margin-block-start: 5px;
+    left: 20px;
+  }
+  
+  #users{
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  #logoutbutton{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 16cm;
+  }
+
+  #setUser{
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    margin-block-end: 4px;
+  }

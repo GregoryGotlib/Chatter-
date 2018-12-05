@@ -1,0 +1,12 @@
+#chatWrap{
+    float: left;
+    border: 2px black solid;
+}
+
+#contentWrap{
+    display: none;
+}
+
+#chat{
+    height: 500px;
+}

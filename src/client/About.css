@@ -1,0 +1,29 @@
+#lead{
+    font-family: 'Courier New', Courier, monospace
+}
+
+#jum{
+    padding: 30px 30px;
+    margin-bottom: 30px;
+    min-width: 80%;
+    color: inherit;
+    border-bottom-style:outset;
+    border-color:darkgray;
+}
+
+#display-5{
+    font-family: 'Courier New', Courier, monospace
+}
+
+.lead{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#back_b{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#end{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
