@@ -4,12 +4,11 @@ const path = require('path');
 // create express application
 const app = express();
 
-const PORT = process.env.PORT || 3222;
 const server = require('http').Server(app);
 
 app.user(express.static(__dirname + '/../../build'))
 
- server.listen(PORT, function(){
+ server.listen(process.env.PORT || 5000, function(){
     console.log('Server is now running on port:',PORT)
 });
 
