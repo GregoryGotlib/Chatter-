@@ -1,15 +1,16 @@
 {
-  "main.css": "/GregoryGotlib/Chatter-.git/static/css/main.c5b54fcd.chunk.css",
-  "main.js": "/GregoryGotlib/Chatter-.git/static/js/main.3d238c47.chunk.js",
-  "main.js.map": "/GregoryGotlib/Chatter-.git/static/js/main.3d238c47.chunk.js.map",
+  "main.css": "/GregoryGotlib/Chatter-.git/static/css/main.60e35786.chunk.css",
+  "main.js": "/GregoryGotlib/Chatter-.git/static/js/main.445dcb36.chunk.js",
+  "main.js.map": "/GregoryGotlib/Chatter-.git/static/js/main.445dcb36.chunk.js.map",
   "static/css/1.01b649cf.chunk.css": "/GregoryGotlib/Chatter-.git/static/css/1.01b649cf.chunk.css",
   "static/js/1.d07ffe13.chunk.js": "/GregoryGotlib/Chatter-.git/static/js/1.d07ffe13.chunk.js",
   "static/js/1.d07ffe13.chunk.js.map": "/GregoryGotlib/Chatter-.git/static/js/1.d07ffe13.chunk.js.map",
   "runtime~main.js": "/GregoryGotlib/Chatter-.git/static/js/runtime~main.308ec7d2.js",
   "runtime~main.js.map": "/GregoryGotlib/Chatter-.git/static/js/runtime~main.308ec7d2.js.map",
-  "static/css/main.c5b54fcd.chunk.css.map": "/GregoryGotlib/Chatter-.git/static/css/main.c5b54fcd.chunk.css.map",
+  "static/css/main.60e35786.chunk.css.map": "/GregoryGotlib/Chatter-.git/static/css/main.60e35786.chunk.css.map",
+  "static/media/About.css": "/GregoryGotlib/Chatter-.git/static/media/main_back.8eaa62ca.jpg",
   "static/css/1.01b649cf.chunk.css.map": "/GregoryGotlib/Chatter-.git/static/css/1.01b649cf.chunk.css.map",
   "index.html": "/GregoryGotlib/Chatter-.git/index.html",
-  "precache-manifest.f5e1a6fab34642b7f514bd5ca17eb404.js": "/GregoryGotlib/Chatter-.git/precache-manifest.f5e1a6fab34642b7f514bd5ca17eb404.js",
+  "precache-manifest.7283d24b0e82a21bb28cf9e34c050b2d.js": "/GregoryGotlib/Chatter-.git/precache-manifest.7283d24b0e82a21bb28cf9e34c050b2d.js",
   "service-worker.js": "/GregoryGotlib/Chatter-.git/service-worker.js"
 }

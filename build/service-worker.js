@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/GregoryGotlib/Chatter-.git/precache-manifest.f5e1a6fab34642b7f514bd5ca17eb404.js"
+  "/GregoryGotlib/Chatter-.git/precache-manifest.7283d24b0e82a21bb28cf9e34c050b2d.js"
 );
 
 workbox.clientsClaim();
