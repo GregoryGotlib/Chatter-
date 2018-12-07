@@ -42,9 +42,9 @@ export default class Login extends Component {
 		return (
 			<div className="login">
 				<form onSubmit={this.SubmitHandler} className="login-form" >
-					<Jumbotron id="jum" body inverse color="info">
+					<Jumbotron id="juml" body inverse color="info">
 						<h1 id="h1">Please provide nick name</h1>
-						<hr className="my-8" />
+						
 						<span>
                         <input
                             ref={(input)=>{ this.textInput = input }} 
@@ -52,7 +52,8 @@ export default class Login extends Component {
                             id="nickname"
                             value={this.state.NickName}
                             onChange={this.ChangeHandler}
-                            placeholder={'nick name?'}
+							placeholder={'nick name?'}
+							required="required"
                             />
                     	</span> 
 						<div className="errormsg">{this.state.ErrorMsg ? this.state.ErrorMsg:null}</div>

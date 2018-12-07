@@ -7,8 +7,8 @@ export default class Home extends Component{
     render(){
         return(
         <div className="bg">
-            <div className="container">
-                <Jumbotron id="jum">
+            <div className="containerh">
+                <Jumbotron id="jumh">
                     <h2 id="h2">
                         Wellcome to The Chatter application!
                     </h2>

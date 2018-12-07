@@ -4,6 +4,7 @@ import Base from './client/Base.jsx';
 import Home from './client/Home.jsx';
 import About from './client/About.jsx';
 import CustomNavbar from './client/CustomNavbar.jsx';
+
 class App extends Component {
 
   render() {

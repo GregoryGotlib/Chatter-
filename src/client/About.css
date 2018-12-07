@@ -1,22 +1,33 @@
-#lead{
-    font-family: 'Courier New', Courier, monospace
+
+#jumb{
+    padding: 0px 30px;
+    margin-bottom: 70px;
+    margin-block-start: 450px;
+    margin-right: 100px;
+    min-width: 60%;
+    min-height: 20%;
+    background: none;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+   
 }
 
-#jum{
-    padding: 30px 30px;
-    margin-bottom: 30px;
-    min-width: 80%;
-    color: inherit;
-    border-bottom-style:outset;
-    border-color:darkgray;
-}
+.p1{
 
-#display-5{
-    font-family: 'Courier New', Courier, monospace
-}
-
-.lead{
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    font-size:20px;
+    
+}
+
+#p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
 }
 
 #back_b{
@@ -26,4 +37,12 @@
 #end{
     font-family: 'Courier New', Courier, monospace;
     font-style: oblique;
+}
+
+.containera{
+    background-image: url('./images/main_back.jpg');
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    position: fixed
 }

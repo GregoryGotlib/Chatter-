@@ -51,49 +51,51 @@ export default class Chat extends Component {
         }            
         return usersList
     }
-    
 
     render() {
-        const Users = this.CreateConnectedUsersList(this.props.Users)
+        const Users  = this.CreateConnectedUsersList(this.props.Users)
         return (
-            <div className="container">
-                <div className="row">
-                    <div className="col-4">
+            <div className="chat_container">
                     <Card id="userscard">
-                            <CardBody>
-                                <CardTitle id="cardTitle">Connected Users</CardTitle>
-                                <hr/>  
-                                <div className="users">{Users.map(data=>{
-                                    return(
-                                        <div id="setUser">{data}</div>
+                        <CardBody>
+                            <CardTitle id="users_title">Connected Users</CardTitle>
+                            <hr id="hr"/>  
+                            <div className="users">{Users.map(data=>{
+                                return(
+                                    <ul>
+                                        <li>
+                                            <div id="data">{data}</div>
+                                        </li>
+                                    </ul>
+                                )
+                            })}
+                            </div>   
+                        </CardBody>
+                    </Card>
+                    <Card id="chat_card">
+                        <CardBody id="chat_card_body">
+                            <CardTitle id="chat_card_title">Chatter - Wellcome {this.props.User.name}</CardTitle>
+                            <hr id="hr"/>
+                            <div className="messages">
+                                {this.state.Messages.map(info => {
+                                    return (
+                                        <div>
+                                        <div id="sender">{info.sender}: <div id="message">{info.Message}</div></div>
+                                        <br/>
+                                        </div>
                                     )
                                 })}
-                                </div>   
-                            </CardBody>
-                            <CardFooter>
-                            </CardFooter>
-                        </Card>
-                        <Card id="card">
-                            <CardBody>
-                                <CardTitle id="cardTitle">Chatter - Wellcome {this.props.User.name}</CardTitle>
-                                <hr/>
-                                <div className="messages">
-                                    {this.state.Messages.map(info => {
-                                        return (
-                                            <div id="sender">{info.sender}: {info.Message}</div>
-                                        )
-                                    })}
-                                </div>
-                            </CardBody>
-                            <CardFooter>
+                            </div>
+                        </CardBody>
+                            <CardFooter id="chat_card_footer">
                                 <input id="input" type="text" placeholder="Message" className="form-control" value={this.state.Message} onChange={this.ChangeHandler}/>
                                 <br/>
-                                <Button id="button" onClick={this.MessageHandler} color="success">Send</Button>
-                                <Button id="logoutbutton" onClick={this.props.logout} color="danger" >Logout</Button>
+                                <div className="buttons">
+                                    <Button id="button" onClick={this.MessageHandler} color="success">Send</Button>
+                                    <Button id="logoutbutton" onClick={this.props.logout} color="danger" >Logout</Button>
+                                </div>
                             </CardFooter>
-                        </Card>
-                    </div>
-                </div>
+                    </Card>
             </div>
         );
       }

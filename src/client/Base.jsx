@@ -19,7 +19,7 @@ export default class Base extends Component{
         
     // Setting data first and then rendering
     componentDidMount(){
-        const socket = io('/')
+        const socket = io('http://localhost:5000/')
         this.setState({socket})
     }
     

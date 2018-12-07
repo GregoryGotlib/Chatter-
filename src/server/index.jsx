@@ -1,23 +1,28 @@
 // require express module
-const express = require('express');
-const path = require('path');
+var express = require('express');
+
 // create express application
-const app = express();
+var app = express();
 
-const server = require('http').Server(app);
+//const server = require('http').Server(app);
 
-app.user(express.static(__dirname + '/../../build'))
-
- server.listen(process.env.PORT || 5000, function(){
+//app.use(express.static(__dirname + '/../../build'))
+/*
+var PORT = process.env.PORT || 5000
+ server.listen(PORT, function(){
     console.log('Server is now running on port:',PORT)
 });
-
+*/
+var PORT = process.env.PORT || 5000
+server = app.listen(PORT, function(){
+    console.log('Server connected to port:',PORT)
+})
 // require socket.io module
-const socket = require('socket.io');
+var socket = require('socket.io');
 
 
 // create socket application 
-const io = socket(server);
+var io = socket(server);
 
 let Users = {  };
 
@@ -50,9 +55,16 @@ io.on('connection',(socket)=>{
     socket.on('LOGOUT',function(){
         console.log(socket.User.name,'disconnected!')
         delete Users[socket.User.name]
-        
         io.sockets.emit('USER_DISCONNECTED',Users)
     });
+
+    socket.on('disconnect', ()=>{
+		if('User' in socket){
+			delete Users[socket.User.name]
+            io.emit('USER_DISCONNECTED', Users)
+            console.log("balalal")
+		}
+	})
     
 });
 
