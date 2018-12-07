@@ -6,13 +6,9 @@ var app = express();
 
 //const server = require('http').Server(app);
 
-//app.use(express.static(__dirname + '/../../build'))
-/*
-var PORT = process.env.PORT || 5000
- server.listen(PORT, function(){
-    console.log('Server is now running on port:',PORT)
-});
-*/
+app.use(express.static(__dirname + '/public'))
+
+
 var PORT = process.env.PORT || 5000
 server = app.listen(PORT, function(){
     console.log('Server connected to port:',PORT)
