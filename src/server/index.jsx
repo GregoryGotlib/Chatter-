@@ -1,8 +1,8 @@
 // require express module
-var express = require('express');
+const express = require('express');
 
 // create express application
-var app = express();
+const app = express();
 
 //const server = require('http').Server(app);
 
@@ -18,7 +18,7 @@ var socket = require('socket.io');
 
 
 // create socket application 
-var io = socket(server);
+const io = socket(server);
 
 let Users = {  };
 
