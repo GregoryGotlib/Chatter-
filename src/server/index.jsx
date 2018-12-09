@@ -1,24 +1,28 @@
-// require express module
 const express = require('express');
 
 // create express application
 const app = express();
 
-//const server = require('http').Server(app);
+const server = require('http').Server(app);
 
-app.use(express.static(__dirname + '/public'))
-
-
-var PORT = process.env.PORT || 5000
-server = app.listen(PORT, function(){
-    console.log('Server connected to port:',PORT)
-})
 // require socket.io module
 var socket = require('socket.io');
 
-
 // create socket application 
 const io = socket(server);
+
+
+app.use(express.static(__dirname + '/../../build'));
+app.get('/',function(req,res){
+    res.render(index);
+})
+
+const PORT = process.env.PORT || 5000
+
+server = app.listen(PORT, function(){
+    console.log('Server connected to port:',PORT)
+})
+
 
 let Users = {  };
 

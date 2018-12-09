@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/GregoryGotlib/Chatter-.git/static/js/runtime~main.308ec7d2.js"
   },
   {
-    "revision": "445dcb36bf12f050ddab",
-    "url": "/GregoryGotlib/Chatter-.git/static/js/main.445dcb36.chunk.js"
+    "revision": "9882f20ac5b4f64b06c4",
+    "url": "/GregoryGotlib/Chatter-.git/static/js/main.9882f20a.chunk.js"
   },
   {
     "revision": "d07ffe130b04030ba81d",
     "url": "/GregoryGotlib/Chatter-.git/static/js/1.d07ffe13.chunk.js"
   },
   {
-    "revision": "445dcb36bf12f050ddab",
+    "revision": "9882f20ac5b4f64b06c4",
     "url": "/GregoryGotlib/Chatter-.git/static/css/main.60e35786.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/GregoryGotlib/Chatter-.git/static/css/1.01b649cf.chunk.css"
   },
   {
-    "revision": "2d5492a81a8831ae8c7d7159dbbc001b",
+    "revision": "e4572cd10c3af2a712e2524c4248e4e3",
     "url": "/GregoryGotlib/Chatter-.git/index.html"
   }
 ];
