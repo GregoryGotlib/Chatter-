@@ -12,7 +12,7 @@ var socket = require('socket.io');
 const io = socket(server);
 
 
-app.use(express.static(__dirname + '/../../build'));
+app.use(express.static(__dirname + '/public/'));
 
 
 const PORT = process.env.PORT || 5000
