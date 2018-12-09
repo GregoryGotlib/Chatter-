@@ -19,7 +19,7 @@ app.get('/',function(req,res){
 
 const PORT = process.env.PORT || 5000
 
-server = app.listen(PORT, function(){
+server.listen(PORT, function(){
     console.log('Server connected to port:',PORT)
 })
 
