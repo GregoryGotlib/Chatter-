@@ -11,9 +11,10 @@ var socket = require('socket.io');
 // create socket application 
 const io = socket(server);
 
-
-app.use(express.static(__dirname + '/static/'));
-
+app.use(express.static('dist'));
+app.get('*', (request, response) => {
+response.sendFile(path.join(__dirname, 'dist', 'index.html'));
+});
 
 const PORT = process.env.PORT || 5000
 
