@@ -1,16 +1,14 @@
 {
-  "main.css": "/GregoryGotlib/Chatter-.git/static/css/main.60e35786.chunk.css",
-  "main.js": "/GregoryGotlib/Chatter-.git/static/js/main.9882f20a.chunk.js",
-  "main.js.map": "/GregoryGotlib/Chatter-.git/static/js/main.9882f20a.chunk.js.map",
-  "static/css/1.01b649cf.chunk.css": "/GregoryGotlib/Chatter-.git/static/css/1.01b649cf.chunk.css",
-  "static/js/1.d07ffe13.chunk.js": "/GregoryGotlib/Chatter-.git/static/js/1.d07ffe13.chunk.js",
-  "static/js/1.d07ffe13.chunk.js.map": "/GregoryGotlib/Chatter-.git/static/js/1.d07ffe13.chunk.js.map",
-  "runtime~main.js": "/GregoryGotlib/Chatter-.git/static/js/runtime~main.308ec7d2.js",
-  "runtime~main.js.map": "/GregoryGotlib/Chatter-.git/static/js/runtime~main.308ec7d2.js.map",
-  "static/css/1.01b649cf.chunk.css.map": "/GregoryGotlib/Chatter-.git/static/css/1.01b649cf.chunk.css.map",
-  "static/media/About.css": "/GregoryGotlib/Chatter-.git/static/media/main_back.8eaa62ca.jpg",
-  "static/css/main.60e35786.chunk.css.map": "/GregoryGotlib/Chatter-.git/static/css/main.60e35786.chunk.css.map",
-  "index.html": "/GregoryGotlib/Chatter-.git/index.html",
-  "precache-manifest.22168c4dcc9a1b1259d698c040267042.js": "/GregoryGotlib/Chatter-.git/precache-manifest.22168c4dcc9a1b1259d698c040267042.js",
-  "service-worker.js": "/GregoryGotlib/Chatter-.git/service-worker.js"
+  "main.css": "/static/css/main.e0bbd5c3.chunk.css",
+  "main.js": "/static/js/main.069a9265.chunk.js",
+  "main.js.map": "/static/js/main.069a9265.chunk.js.map",
+  "static/js/1.169bc8ee.chunk.js": "/static/js/1.169bc8ee.chunk.js",
+  "static/js/1.169bc8ee.chunk.js.map": "/static/js/1.169bc8ee.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/media/About.css": "/static/media/main_back.8eaa62ca.jpg",
+  "static/css/main.e0bbd5c3.chunk.css.map": "/static/css/main.e0bbd5c3.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.6a647b87a12c0684edb18f9a1357f16a.js": "/precache-manifest.6a647b87a12c0684edb18f9a1357f16a.js",
+  "service-worker.js": "/service-worker.js"
 }
