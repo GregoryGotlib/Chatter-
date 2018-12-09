@@ -11,11 +11,12 @@ var socket = require('socket.io');
 // create socket application 
 const io = socket(server);
 
-app.use(express.static('chat_app/build'));
+app.use(express.static(path.join(__dirname, '/../../build')));
 
-app.get('*', (request, response) => {
-    response.sendFile(path.resolve(__dirname, 'client','build', 'index.html'));
-});
+    app.get('*', (request, response) => {
+        response.sendFile(path.join(__dirname + '/../../build/index.html'));
+        });
+
 
 const PORT = process.env.PORT || 5000
 
