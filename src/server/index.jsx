@@ -13,9 +13,7 @@ const io = socket(server);
 
 
 app.use(express.static(__dirname + '/../../build'));
-app.get('/',function(req,res){
-    res.render(index);
-})
+
 
 const PORT = process.env.PORT || 5000
 
